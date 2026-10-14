@@ -248,14 +248,14 @@ IPL-2022-Data-Science-Predictive-Analytics-Engine/
 
 ## 👨‍💻 About the Developer
 
-**Shaikh Azim**  
+**Abdul Azim**  
 BCA Graduate | MCA Student | Aspiring Data Analyst & Data Scientist
 
 Interested in transforming raw data into actionable insights through Python, SQL, data visualization, and machine learning.
 
 - **GitHub:** [shaikhazim153](https://github.com/shaikhazim153)
 - **Portfolio:** [Visit My Portfolio](https://shaikhazim153.github.io/skazimport)
-- **Project Repository:** [IPL 2022 Data Science & Predictive Analytics Engine](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine)
+- **Project Repository:** [IPL 2022 Data Science & Predictive Analytics Engine](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/tree/main/IPL_CAPSTONE_PROJECT)
 
 ---
 
