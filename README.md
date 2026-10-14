@@ -1,232 +1,266 @@
-# 🏏 IPL 2022 — Data Science & Predictive Analytics Engine
+# 🏏 IPL 2022 Data Science & Predictive Analytics Engine
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Data%20Science-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-Logistic%20Regression-8A2BE2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Data%20Visualization-Plotly%20%7C%20Seaborn-00BFA6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Season-IPL%202022-FF6B00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Plotly-Interactive%20Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn">
 </p>
 
 <p align="center">
-  <b>🏆 From Cricket Data to Predictive Intelligence</b>
-  <br/>
-  An end-to-end data science project combining exploratory data analysis, interactive visualizations, cricket performance insights, and machine learning to explore IPL 2022 match outcomes.
+  <b>Turning IPL 2022 Match Data into Meaningful Insights with Python, Visualization & Machine Learning</b>
 </p>
 
 ---
 
 ## 📌 Project Overview
 
-**IPL 2022 Data Science & Predictive Analytics Engine** is a cricket analytics project developed using Python, Pandas, NumPy, Plotly, Seaborn, and Scikit-learn.
+The **IPL 2022 Data Science & Predictive Analytics Engine** is a cricket analytics project designed to explore match outcomes, team performance, toss decisions, winning margins, player achievements, and match-winning patterns throughout the Indian Premier League 2022 season.
 
-The project transforms IPL match statistics into meaningful insights by analyzing team performance, toss decisions, match venues, batting and bowling contributions, and winning patterns.
+Using Python and data analytics libraries, this project transforms raw IPL match data into meaningful visual insights. It also explores a machine learning approach to predict match winners using relevant pre-match information.
 
-It also incorporates a **Logistic Regression classification model** to explore match-winner prediction using selected pre-match features.
+### 🎯 Project Objectives
 
-🎯 **Project Goal:** Demonstrate how data analytics and machine learning can be applied to real-world sports data to uncover patterns and support data-driven predictions.
-
-## 📸 Project Preview
-
-### 🏏 01. Match Analysis & Team Performance
-
-*Explore franchise performance, match results, and winning trends.*
-
-![IPL Match Analysis](images/ipl_match_analysis.png)
-
-### 📊 02. Exploratory Data Analysis (EDA)
-
-*Visualize toss decisions, venue trends, and match outcome distributions.*
-
-![IPL Exploratory Data Analysis](images/ipl_eda.png)
-
-### 🤖 03. Machine Learning & Prediction
-
-*Explore the match-winner prediction workflow and model results.*
-
-![IPL Prediction Model](images/ipl_prediction.png)
-
-> **Note:** Replace these example image paths with your actual screenshot filenames and upload the images into an `images` folder in your repository.
+- Analyze team performance and match-winning trends.
+- Identify patterns in toss decisions and match outcomes.
+- Compare winning margins across teams.
+- Explore individual high scores and Player of the Match awards.
+- Investigate venue-related and first-innings scoring patterns.
+- Explore machine learning for IPL match-winner prediction.
+- Present findings through interactive and informative visualizations.
 
 ---
 
-## 🚀 Key Features
+## 🛠️ Tech Stack
 
-- **📥 Data Preparation Pipeline:** Data cleaning, type conversion, categorical encoding, and preparation for analysis.
-- **📊 Exploratory Data Analysis:** Investigate team wins, toss decisions, match outcomes, venue characteristics, and player performance.
-- **📈 Interactive Visualizations:** Create analytical charts using Plotly, Seaborn, and Matplotlib.
-- **🏆 Team Performance Analysis:** Compare franchise results and identify high-performing teams.
-- **🎯 Toss Strategy Analysis:** Examine the relationship between toss decisions and match outcomes.
-- **🤖 Predictive Modeling:** Apply Logistic Regression to classify match winners from selected features.
-- **🔍 Model Evaluation:** Assess prediction performance using appropriate classification metrics.
-
-## 📊 IPL 2022 — Key Analytical Insights
-
-### 🥇 1. Franchise Performance
-
-- Gujarat Titans recorded **12 wins** during the 2022 season.
-- Rajasthan Royals followed with **10 wins**.
-- Team-level analysis helps compare franchise performance throughout the tournament.
-
-### 🪙 2. Toss Decision Patterns
-
-- Teams elected to field first in **59 matches**.
-- Teams chose to bat first in **15 matches**.
-- Toss decisions offer an opportunity to investigate strategic preferences during the season.
-
-### 🏏 3. Match Results
-
-- **38 matches** were won by wickets.
-- **36 matches** were won by runs.
-
-These results provide a starting point for exploring chasing performance versus defending a total.
-
-*The insights above reflect the figures documented for this project. Verify them against the dataset and notebook before using them in formal reporting.*
+| Technology | Purpose |
+|---|---|
+| Python | Data analysis and programming |
+| Pandas | Data cleaning and manipulation |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Plotly | Interactive charts and visual analytics |
+| Scikit-learn | Machine learning and model development |
+| Jupyter Notebook | Analysis and experimentation |
 
 ---
 
-## 🤖 Machine Learning — Match Winner Prediction
+## 📸 Project Preview & Interactive Visualizations
 
-The project uses **Logistic Regression**, a supervised classification algorithm, to explore IPL match-winner prediction.
+This section showcases the key visualizations developed for IPL 2022 analysis, covering team performance, winning margins, individual scores, awards, and toss-related trends.
 
-### 🔬 Model Workflow
+### 🏏 01. Most Match Wins by Team
 
-1. Load and inspect the match dataset.
-2. Clean missing or inconsistent values.
-3. Prepare categorical and numerical features.
-4. Encode categorical variables for model training.
-5. Split the data into training and testing sets.
-6. Train the Logistic Regression model.
-7. Evaluate predictions using suitable classification metrics.
-8. Use the trained model to generate predictions for supported match scenarios.
+Explore team-wise match victories and compare franchise performance throughout IPL 2022.
 
-### 🧠 Example Prediction Concept
+![Most Match Wins by Team](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/blob/main/IPL_CAPSTONE_PROJECT/newplot%20(1).png)
 
-```python
-match_features = {
-    "team1": "Chennai",
-    "team2": "Kolkata",
-    "venue": "Wankhede Stadium, Mumbai",
-    "toss_winner": "Kolkata",
-    "toss_decision": "Field"
-}
-```
+### 📊 02. Distribution of Winning Margins — Runs by Team
 
-The example illustrates the type of information that could be supplied to a prediction pipeline. Actual predictions require the trained model, matching feature preprocessing, and the prediction function implemented in the notebook.
+Analyze the distribution of victory margins by runs and compare the winning patterns of different teams.
 
-**Important:** Predictions are probabilistic estimates, not guaranteed match results.
+![Distribution of Winning Margins Runs by Team](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/blob/main/IPL_CAPSTONE_PROJECT/newplot%20(2).png)
 
-## 🗂️ Dataset Overview
+### 🏆 03. Individual Highscores vs. Match-Winning Margins
 
-The analysis uses match-level IPL data containing fields such as:
+Explore individual batting highscores alongside match-winning margins to investigate the relationship between batting performances and victory margins.
 
-| Feature | Description |
+![Individual Highscores vs Match Winning Margins](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/blob/main/IPL_CAPSTONE_PROJECT/newplot%20(4).png)
+
+### 🌳 04. Hierarchical Breakdown of Wins by Stage, Team, and Type
+
+Explore a hierarchical view of match victories, breaking down winning patterns by stage, team, and type.
+
+![Hierarchical Breakdown of Wins by Stage Team and Type](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/blob/main/IPL_CAPSTONE_PROJECT/newplot%20(5).png)
+
+### 🥇 05. Player of the Match Awards by Winning Team
+
+Examine the distribution of Player of the Match awards across winning teams and explore individual contributions to team success.
+
+![Player of the Match Awards by Winning Team](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/blob/main/IPL_CAPSTONE_PROJECT/newplot%20(8).png)
+
+### 🪙 06. Impact of Toss Decision on First-Innings Score and Wickets
+
+Investigate how toss decisions relate to first-innings scores and wickets, helping explore potential patterns in match strategy.
+
+![Impact of Toss Decision on First Innings Score and Wickets](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/blob/main/IPL_CAPSTONE_PROJECT/newplot%20(9).png)
+
+### 📈 07. Interactive Toss Decision Trends
+
+Explore toss-decision trends using an interactive visualization to better understand teams' choices and their distribution.
+
+![Interactive Toss Decision Trends](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine/blob/main/IPL_CAPSTONE_PROJECT/newplot.png)
+
+---
+
+## 🔍 Key Areas of Analysis
+
+### 1. Team Performance Analysis
+- Compare team victories and overall match performance.
+- Identify teams with strong winning records.
+- Explore team-wise victory patterns.
+
+### 2. Toss Decision Analysis
+- Examine batting-first and fielding-first decisions.
+- Investigate the relationship between toss decisions and match outcomes.
+- Explore first-innings scoring and wickets.
+
+### 3. Winning Margin Analysis
+- Compare wins by runs and wickets.
+- Analyze the distribution of winning margins.
+- Investigate individual high scores alongside match-winning margins.
+
+### 4. Player Performance Analysis
+- Explore Player of the Match award distributions.
+- Examine individual batting achievements.
+- Compare player contributions across winning teams.
+
+### 5. Machine Learning & Predictive Analytics
+- Prepare and transform data for model development.
+- Explore Logistic Regression for match-winner prediction.
+- Investigate the use of pre-match features such as teams, toss decisions, venue, and team statistics.
+- Evaluate model performance using suitable validation metrics.
+
+*Note: Actual prediction accuracy and model performance should be reported only after running and validating the implemented model.*
+
+---
+
+## 🤖 Machine Learning Workflow
+
+The predictive analytics workflow can be organized into the following stages:
+
+1. **Data Collection:** Load the IPL 2022 dataset.
+2. **Data Cleaning:** Handle missing values, duplicate records, and inconsistent formats where applicable.
+3. **Feature Engineering:** Prepare relevant pre-match features.
+4. **Encoding:** Convert categorical variables into model-compatible numerical representations.
+5. **Model Training:** Train a suitable classification model, such as Logistic Regression.
+6. **Model Evaluation:** Evaluate predictions using appropriate classification metrics.
+7. **Visualization:** Present analytical findings and model results.
+
+**Important:** For a realistic pre-match prediction, use only information available before the match. Avoid using post-match scores, actual winning margins, or other outcome-derived fields as prediction inputs.
+
+---
+
+## 📂 Dataset Description
+
+The project dataset includes IPL match information such as:
+
+| Column | Description |
 |---|---|
 | `date` | Match date |
-| `venue` | Stadium where the match was played |
-| `team1`, `team2` | Competing teams |
+| `venue` | Stadium or match venue |
+| `team1` | First participating team |
+| `team2` | Second participating team |
 | `toss_winner` | Team that won the toss |
-| `toss_decision` | Decision to bat or field |
+| `toss_decision` | Decision made after winning the toss |
 | `first_ings_score` | First-innings score |
 | `second_ings_score` | Second-innings score |
 | `won_by` | Victory type |
 | `margin` | Winning margin |
-| `player_of_the_match` | Player receiving the match award |
-| `top_scorer` | Leading scorer recorded for the match |
+| `player_of_the_match` | Player receiving the award |
+| `top_scorer` | Top scorer in the match |
 | `highscore` | Highest individual score |
-| `best_bowling` | Best bowling performance recorded |
-| `best_bowling_figure` | Bowling figures |
+| `best_bowling` | Best bowling performance |
+| `best_bowling_figure` | Best bowling figures |
 
-*Column names may differ depending on the dataset version used.*
+---
 
-## 🛠️ Tech Stack
+## 💻 Installation & Setup
 
-| Technology | Application |
-|---|---|
-| Python | Core programming and analysis |
-| Pandas | Data manipulation and cleaning |
-| NumPy | Numerical operations |
-| Scikit-learn | Classification and model evaluation |
-| Plotly | Interactive data visualizations |
-| Seaborn | Statistical visualizations |
-| Matplotlib | Charts and exploratory analysis |
-| Jupyter Notebook | Development and experimentation |
-
-## ⚡ Installation & Quick Start
-
-### 1. Clone the repository
+### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/shaikhazim153/IPL-2022-Predictive-Analytics.git
-cd IPL-2022-Predictive-Analytics
+git clone https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine.git
 ```
 
-### 2. Install dependencies
+### Step 2: Navigate to the Project Folder
 
 ```bash
-python -m pip install numpy pandas scikit-learn plotly seaborn matplotlib jupyter
+cd IPL-2022-Data-Science-Predictive-Analytics-Engine
 ```
 
-### 3. Launch Jupyter Notebook
+### Step 3: Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly scikit-learn jupyter
+```
+
+### Step 4: Open Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Open the IPL analysis notebook and execute its cells in order.
+Open the relevant notebook inside the `IPL_CAPSTONE_PROJECT` folder and run the cells in sequence.
 
-> If your repository or notebook has a different name, update the commands to match the actual filenames.
+---
 
-## 📂 Repository Structure
+## 📁 Project Structure
 
 ```text
-IPL-2022-Predictive-Analytics/
+IPL-2022-Data-Science-Predictive-Analytics-Engine/
 │
-├── images/
-│   ├── ipl_match_analysis.png
-│   ├── ipl_eda.png
-│   └── ipl_prediction.png
+├── IPL_CAPSTONE_PROJECT/
+│   ├── Dataset files
+│   ├── Jupyter Notebook(s)
+│   ├── newplot.png
+│   ├── newplot (1).png
+│   ├── newplot (2).png
+│   ├── newplot (4).png
+│   ├── newplot (5).png
+│   ├── newplot (8).png
+│   └── newplot (9).png
 │
-├── data/
-│   └── README.md
-│
-├── IPL_2022_Analysis.ipynb
-├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
-*This is a suggested structure. Keep only files and folders that actually exist in your repository.*
+*The structure above is illustrative. Your actual dataset and notebook filenames may differ.*
 
-## 📈 Future Enhancements
+---
 
-- Compare Logistic Regression with Random Forest and other classification models.
-- Add model evaluation metrics such as accuracy, precision, recall, F1-score, and a confusion matrix.
-- Develop an interactive match prediction interface.
-- Add team-wise and player-wise performance dashboards.
-- Improve feature engineering while preventing data leakage.
-- Deploy a prediction application using Streamlit.
+## 🚀 Future Enhancements
 
-## 💼 Skills Demonstrated
+- Develop a fully reproducible match-winner prediction pipeline.
+- Compare Logistic Regression with Random Forest and other classification algorithms.
+- Add model evaluation metrics and explain feature importance.
+- Build an interactive Streamlit dashboard.
+- Expand the analysis to multiple IPL seasons.
+- Add team comparison filters and venue-based insights.
+- Improve predictions through carefully validated pre-match features.
 
-`Python` · `Pandas` · `NumPy` · `Exploratory Data Analysis` · `Data Cleaning` · `Data Visualization` · `Plotly` · `Seaborn` · `Scikit-learn` · `Logistic Regression` · `Classification` · `Sports Analytics`
+---
+
+## 📚 Skills Demonstrated
+
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Statistical Analysis
+- Feature Engineering
+- Categorical Data Encoding
+- Machine Learning Fundamentals
+- Predictive Analytics
+- Python Programming
+- Data Storytelling
+
+---
 
 ## 👨‍💻 About the Developer
 
 **Shaikh Azim**  
-Aspiring Data Analyst | Data Science Enthusiast | Power BI Developer
+BCA Graduate | MCA Student | Aspiring Data Analyst & Data Scientist
 
-I am a BCA graduate currently pursuing MCA and developing practical skills in data analytics, Python, SQL, Power BI, and machine learning.
+Interested in transforming raw data into actionable insights through Python, SQL, data visualization, and machine learning.
 
-I enjoy transforming raw datasets into meaningful insights, building analytical projects, and exploring how data science can solve real-world problems.
-
-- 💻 **GitHub:** [shaikhazim153](https://github.com/shaikhazim153)
-- 🌐 **Portfolio:** [Explore My Portfolio](https://shaikhazim153.github.io/skazimport)
-- 💼 **LinkedIn:** [Connect with Me](https://www.linkedin.com/)
+- **GitHub:** [shaikhazim153](https://github.com/shaikhazim153)
+- **Portfolio:** [Visit My Portfolio](https://shaikhazim153.github.io/skazimport)
+- **Project Repository:** [IPL 2022 Data Science & Predictive Analytics Engine](https://github.com/shaikhazim153/IPL-2022-Data-Science-Predictive-Analytics-Engine)
 
 ---
 
-<p align="center">
-  <b>⭐ If you find this project interesting, consider starring the repository!</b>
-  <br/>
-  <i>Analyze the Game. Discover the Patterns. Predict with Data.</i>
-</p>
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a ⭐ on GitHub!
+
+*This project is intended for educational and analytical purposes. Match predictions are experimental and should not be treated as guaranteed outcomes.*
